@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import Message from './newthing.tsx';
+import Message from './components/newthing.tsx';
 import ListGroup from './components/ListGroup.tsx';
 import reportWebVitals from './reportWebVitals';
 

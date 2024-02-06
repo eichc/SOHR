@@ -1,15 +1,22 @@
 Description
-Currently, finding the office hours for all of your classes at RPI is a painful process. No two professors use the same system, and so SOHR is a service that plans to fix that. Professors and TAs input the office hours for their classes, and students are able to look up their classes all in one place. This is a project that was started at HackRPI last semester, so we are essentially starting from scratch. This is our first time taking RCOS and we all have limited web development experience, so this project is very beginner-friendly.
+Currently, finding the office hours for all of your classes at RPI is a painful process. No two professors use the same system, 
+and so SOHR is a service that plans to fix that. Professors and TAs input the office hours for their classes, and students are 
+able to look up their classes all in one place. This is a project that was started at HackRPI last semester, so we are essentially 
+starting from scratch. This is our first time taking RCOS and we all have limited web development experience, so this project is very 
+beginner-friendly.
+
 Stack
 Frontend:
 JavaScript
 HTML
 CSS
 React.js
+
 Backend:
 PHP
 MySQL
 Next.js
+
 Goals
 Determine the overall look, color scheme, UI, etc.
 Frontend for all necessary pages
@@ -52,6 +59,7 @@ Discord: phantompurple
 
 Emmanuel Usman ‘26 (usmane)
 Discord: grumpyunknown
+
 Spaces:
 Github Repository: https://github.com/eichc/SOHR
 Meeting Room: Lally 104
