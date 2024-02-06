@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './newthing.tsx';
+import 'bootstrap/dist/css/bootstrap.css';
+import Message from './newthing.tsx';
+import ListGroup from './components/ListGroup.tsx';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ListGroup />
   </React.StrictMode>
 );
 
