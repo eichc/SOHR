@@ -1,0 +1,4 @@
+What we did to run our react applications...
+-   First step is to download node.js. You can download it from the website or follow a tutorial online and check if it is donwloaded in your computer by doing the command node -v to check what version you have or if you have it installed.
+-   next step is to install it on your IDE. Type ctrl ` to access your VS code terminal and run npm install so you can run youre react apps from the command line. Once you run this you should have access to all the different scripts you can use with react.
+-   once you have this you can run npm start in the directory where your app is and it will run your react application in a new window. Thats all!
