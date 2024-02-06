@@ -15,7 +15,7 @@ Determine the overall look, color scheme, UI, etc.
 Frontend for all necessary pages
 Login for students and faculty/TAs
 Form for professors to create new office hour blocks
-Allow students to save classes that they’re taking
+Allow students to save classes that they’re t aking
 Calendar view of office hours
 Time, room, name of TA/mentor
 Ability to search for a specific class
