@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
+import Header from './components/Header.tsx';
 import App from './components/TestApp.tsx';
-import Header from "./components/Header.tsx"
 import Footer from "./components/Footer.tsx";
 import reportWebVitals from './reportWebVitals.js';
 
