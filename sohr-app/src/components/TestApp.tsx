@@ -1,5 +1,5 @@
 import React from "react";
-import Message from "./Newthing.tsx";
+import Message from "./newthing.tsx";
 import ListGroup from "./ListGroup.tsx";
 import Alert from "./Alert.tsx";
 

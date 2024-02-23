@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
 import App from './components/TestApp.tsx';
-import Message from "./components/Newthing.tsx";
+import Message from "./components/newthing.tsx";
 import Footer from "./components/Footer.tsx";
 import reportWebVitals from './reportWebVitals.js';
 
@@ -11,6 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 let cities = ["Boston", "New York", "Chicago", "Los Angeles", "London"];
 root.render(
   <React.StrictMode>
+    <header />
     <App />
     <Footer />
   </React.StrictMode>
