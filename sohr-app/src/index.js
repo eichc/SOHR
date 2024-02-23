@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
+import './App.css'
 import Message from './components/newthing.tsx';
 import ListGroup from './components/ListGroup.tsx';
+import Footer from './components/Footer.tsx'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ListGroup />
-  </React.StrictMode>
+    <Message />
+    <Footer />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
