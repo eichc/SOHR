@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import Message from './components/newthing.tsx';
-import ListGroup from './components/ListGroup.tsx';
+import App from './components/App.tsx';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let cities = ["Boston", "New York", "Chicago", "Los Angeles", "London"];
 root.render(
   <React.StrictMode>
-    <ListGroup />
-    <Message name="Satyam" last="Patel">
-      <button> Home </button>
-    </Message> 
+    <App />
   </React.StrictMode>
 );
 
