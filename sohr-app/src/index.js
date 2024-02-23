@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
 import App from './components/TestApp.tsx';
-import Message from "./components/newthing.tsx";
 import Footer from "./components/Footer.tsx";
 import reportWebVitals from './reportWebVitals.js';
 
