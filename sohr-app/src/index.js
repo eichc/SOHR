@@ -6,11 +6,22 @@ import Header from './components/Heading.tsx';
 import App from './components/TestApp.tsx';
 import Footer from "./components/Footer.tsx";
 import reportWebVitals from './reportWebVitals.js';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
+    <Router>
+      <Header />
+        <Routes>
+            <Route exact path="/" element={<Home />} />
+            
+        </Routes>
+    </Router>
     <App />
     <Footer />
   </React.StrictMode>
